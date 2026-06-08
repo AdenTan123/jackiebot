@@ -1,0 +1,32 @@
+{
+  "name": "mybot",
+  "version": "1.0.0",
+  "description": "A TypeScript bot with PostgreSQL database and slash commands.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "deploy": "ts-node src/deploy-commands.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "pg": "^8.7.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "ts-node": "^10.0.0",
+    "@types/node": "^16.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/discord.js": "^14.0.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "typescript",
+    "postgresql"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
