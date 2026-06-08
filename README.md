@@ -1,14 +1,3 @@
-# TypeScript Bot with PostgreSQL
-
-This project is a TypeScript bot that interacts with Discord and utilizes a PostgreSQL database hosted on Railway. The bot supports simple slash commands, including a `/ping` command that responds with a mention of the user.
-
-## Features
-
-- Slash command support
-- PostgreSQL database integration
-- Simple command handling
-- Easy deployment with Railway
-
 ## Project Structure
 
 ```
